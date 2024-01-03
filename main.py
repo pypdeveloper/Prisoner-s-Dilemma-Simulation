@@ -58,7 +58,7 @@ def game_master():
     print(f"Player 1 Points: {player1_points} | Player 1 Decisions: {player1_decisions} | Player 2 Points: {player2_points} | Player 2 Decisions: {player2_decisions}")
     if player1_points > player2_points:
         return "Player 1 Wins"
-    elif "Player 2 Wins":
+    elif  player2_points > player1_points:
         return "Player 2 Wins"
     else:
          return "Draw"
